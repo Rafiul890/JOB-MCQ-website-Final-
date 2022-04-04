@@ -1,0 +1,286 @@
+#border{
+    width: 15%;
+    height:auto;
+    color: aliceblue;
+    
+}
+
+body{
+background-color: rgb(255, 255, 255);
+    
+}
+
+.input-box{
+    height: 30px;
+    width:200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+  
+    
+    
+}
+
+
+.main-col1{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    
+
+  
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.col-1{
+    width: 20%;
+    height: 200px;  
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:4d6481;
+    
+
+}
+.col-2{
+    width: 20%;
+    height: 200px; 
+    float: left;    
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:4d6481;
+   
+    
+}
+
+.col-3{
+    width: 20%;
+    height: 200px;
+    float: left;    
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:4d6481;
+ 
+}
+
+.col-4{
+    width: 20%;
+    height: 200px;
+    float: left;   
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:4d6481;
+}
+
+.coll-1{
+    width: 20%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;   
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:#F96167;
+
+}
+.coll-2{
+    width: 20%;
+    height: 200px;
+    float: left;    
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:#F96167;
+}
+
+.coll-3{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:#F96167;
+}
+
+.coll-4{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color:#F96167;
+}
+
+h2{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 45px;
+    margin-right: 80PX;
+    color: crimson;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h3{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 25px;
+    margin-right: 10PX;
+    color: #000000;
+    
+
+}
+
+.column-1{
+    width: 30%;
+    float: left;
+    background-color: rgb(190, 129, 37);
+    height: 50px;
+    margin-left: 400px;
+    margin-top: 50px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    
+}
+.column-2{
+    width: 30%;
+    float: left;
+    background-color: rgb(190, 129, 37);
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    
+   
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+li{
+    float: left;
+    display: block;
+    padding: 10px;
+    margin-top: 18px;
+   
+}
+li a{
+    text-decoration: none;
+    color: rgb(2, 0, 0);
+    
+    }
+li a:hover{
+
+   
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    transition: .3s;
+    box-shadow: 2px 2px 2px #000;
+    color: #ffffff;
+
+}
+.animate{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    transition: 2s;
+}
+.animate:hover{
+    width: 500px;
+    background-color: rgb(136, 77, 192);
+}
+
+a{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    float: 20px;
+    
+        
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 90px;
+    margin-right: 15PX;
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow:2px solid rgb(90, 214, 214);
+    font-synthesis: style;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.container2{
+    width: 100%;
+    padding: 10px;
+    margin: 100px auto;
+    display:flex;
+    justify-content: center;
+
+
+}
+   
+.box1{
+    width: 350px;
+    height: 200px;
+    background:rgb(255, 199, 96);
+    margin: 0px 10px;
+    margin-left: 18px;
+    border-radius: 30px;
+    transition: 1s;
+
+    background-blend-mode: overlay;
+    background-image:   
+    linear-gradient(to bottom, #c7bfbf, #0c0000);
+    background-size: cover;
+   
+}
+
+
+.box1:hover{
+    transform: scale(1.3);
+    transition: .5s;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+hr{
+    width: 80%;
+    color-scheme: black;
+}
+
+.col-12 {
+    width: 100% ;
+    float: left;
+    background-color: rgb(214, 200, 194);
+    height: 8%;
+
+
+    
+
+}
+
+
+.menu-height{
+    height: 100px;   
+}
+
+   
